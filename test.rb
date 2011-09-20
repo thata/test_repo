@@ -13,5 +13,6 @@ end
 
 hello = Hello.new
 hello.say
+hello.dont_say
 
 
