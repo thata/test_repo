@@ -8,6 +8,16 @@ class Hello
   end
 end
 
+class Goodby
+  def say
+    puts message
+  end
+
+  def message
+    "goodbye"
+  end
+end
+
 hello = Hello.new
 hello.say
 
