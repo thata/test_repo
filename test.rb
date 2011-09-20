@@ -8,7 +8,7 @@ class Hello
   end
 end
 
-class Goodby
+class Goodbye
   def say
     puts message
   end
@@ -21,4 +21,5 @@ end
 hello = Hello.new
 hello.say
 
-
+goodbye = Goodbye.new
+goodbye.say
