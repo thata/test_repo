@@ -6,6 +6,9 @@ class Hello
   def message
     "hello"
   end
+
+  def dont_say
+  end
 end
 
 hello = Hello.new
